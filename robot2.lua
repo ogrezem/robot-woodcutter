@@ -130,6 +130,7 @@ local function goToPoint(searchedPointName, enterPoint, ignoreY)
                     end
                   -- если движемся по горизонтали, то мы всегда смотрим по направлению движения
                   else
+                    ---
                     analyzeAndBreakAndTake(3)
                   end
                 end
