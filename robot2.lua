@@ -21,7 +21,7 @@ end
 
 local function breakAndTake(side)
   robot.swing(side)
-  robot.suck()
+  robot.suck()--
 end
 
 local function analyzeAndBreakAndTake(side)
